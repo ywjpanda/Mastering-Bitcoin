@@ -6,16 +6,22 @@
 | chapter |title| start | finish |process|
 | :-----:| :----: | :----: |:----: |:----: |
 |Appen 1|比特币白皮书|2022-08-11|2022-08-11|/|
+|Ch1|比特币介绍|2022-08-12|2022-08-11|6.19%|
 
 ```mermaid
 gantt
 	dateFormat YYYY
 	axisFormat %Y
 	title reading time line
+	section schedule
 	process: crit,0271,0281
+	process: crit,0001,0027
 	pages: 0001,0323
-	section Appen 1
-	0811: done,0271,0281
+	section chapter
+	ch1: done,0009,0020
+	ch2: 0021,0027
+	section Appen
+	Appen 1: done,0271,0281
 ```
 
 
@@ -25,10 +31,9 @@ gantt
     title Reading Timeline
     dateFormat  YYYY-MM-DD
     section DDAP
-    ch1 : done, des1, 2022-07-25,2022-07-31
-    ch2 : done, des2, after des1,2022-08-02
-    ch3 : done, des3, after des2,2022-08-04
-    ch4 : active, des4, after des3, 10d
+    ch1 : done,   des1, 2022-08-12,2022-08-12
+    ch2 : active, des2, 2022-08-12,2022-08-22
+
 ```
 
 ```mermaid
@@ -37,19 +42,19 @@ gantt
 	axisFormat %Y
 	title reading time line
 	process: crit,0001,0107
-	section section 1
-	ch1: done,0001,0032
-	ch2: done,0033,0070
-	ch3: active,0071,0108
-	ch4: 0109,0144
-	section section 2
-	ch5: 0145,0188
-	ch6: 0189,0210
-	ch7: 0211,0258
-	ch8: 0259,0302
-	ch9: 0303,0366
-	section section 3
-	ch10: 0367,0412
-	ch11: 0413,0460
-	ch12: 0461,0520
+	preface: done,0001,0008
+
+	ch1: done,0009,0020
+	ch2: done,0021,0034
+	ch3: active,0035,0055
+	ch4: 0056,0087
+	ch5: 0088,0107
+	ch6: 0108,0135
+	ch7: 0136,0154
+	ch8: 0155,0175
+	ch9: 0176,0190
+	ch10: 0191,0238
+	ch11: 0239,0244
+	ch12: 0245,0270
+	Appen:0271,0323
 ```
