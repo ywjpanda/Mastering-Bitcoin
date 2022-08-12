@@ -41,7 +41,7 @@ gantt
 	dateFormat YYYY
 	axisFormat %Y
 	title reading time line
-	process: crit,0001,0107
+	process: crit,0001,0027
 	preface: done,0001,0008
 
 	ch1: done,0009,0020
