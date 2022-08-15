@@ -7,6 +7,7 @@
 | :-----:| :----: | :----: |:----: |:----: |
 |Appen 1|比特币白皮书|2022-08-11|2022-08-11|/|
 |Ch1|比特币介绍|2022-08-12|2022-08-11|6.19%|
+|Ch2|比特币工作原理|2022-08-12|2022-08-15|10.53%|
 
 ```mermaid
 gantt
@@ -19,7 +20,8 @@ gantt
 	pages: 0001,0323
 	section chapter
 	ch1: done,0009,0020
-	ch2: 0021,0027
+	ch2: done,0021,0034
+	ch3: 0035,0055
 	section Appen
 	Appen 1: done,0271,0281
 ```
@@ -31,8 +33,8 @@ gantt
     title Reading Timeline
     dateFormat  YYYY-MM-DD
     section DDAP
-    ch1 : done,   des1, 2022-08-12,2022-08-12
-    ch2 : active, des2, 2022-08-12,2022-08-22
+    ch1 : done, des1, 2022-08-12,2022-08-12
+    ch2 : done, des2, 2022-08-12,2022-08-15
 
 ```
 
@@ -41,7 +43,8 @@ gantt
 	dateFormat YYYY
 	axisFormat %Y
 	title reading time line
-	process: crit,0001,0027
+	process: crit,0001,0034
+	10.53%: crit,0001,0034
 	preface: done,0001,0008
 
 	ch1: done,0009,0020
