@@ -32,8 +32,9 @@ gantt
     todayMarker off
     title Reading Timeline
     dateFormat  YYYY-MM-DD
+    excludes    sunday
     section DDAP
-    ch1 : done, des1, 2022-08-12,2022-08-12
+    ch1 : done, des1, 2022-08-11,2022-08-12
     ch2 : done, des2, 2022-08-12,2022-08-15
 
 ```
